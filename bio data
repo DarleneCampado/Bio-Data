@@ -1,0 +1,13 @@
+print "Welcome to the BIODATA App \nPlease enter your required information. \n\n-----------------------\nPersonal Information\n-----------------------\n"
+s1 = raw_input("Full name: \t")
+s2 = raw_input("Address: \t")
+s3 = raw_input("Age: \t\t")
+s4 = raw_input("Mobile Number: \t")
+s5 = raw_input("Hobbies: \t\t")
+print "\n-----------------------\nSchool\n-----------------------\n"
+s6 = raw_input("School Name \t")
+s7 = raw_input("Year: \t\t")
+s8 = raw_input("Course \t\t")
+
+print "\n-----------------------\nSummary\n-----------------------\n"
+print ("Hi! My name is %s and I live in %s. I am now %s years old. You can contact me using my number: %s. My hobbies include: %s. I am now studying %s at %s on my year %s") % (str(s1),str(s2),str(s3),str(s4), str(s5), str(s7), str(s6), str(s8))
